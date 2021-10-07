@@ -102,7 +102,7 @@ max_instances = 1024
 max_input_stack_entries = 16
 
 [collection_proxy]
-max_count = 12
+max_count = 16
 
 [collectionfactory]
 max_count = 128
@@ -149,7 +149,7 @@ show_fullscreen_button = 0
 show_made_with_defold = 0
 show_console_banner = 1
 scale_mode = downscale_fit
-splash_image = /assets/main/Tiny_Minimalistic_Logo.png
+splash_image = /assets/other/Tiny_Minimalistic_Logo.png
 
 [particle_fx]
 max_count = 64
