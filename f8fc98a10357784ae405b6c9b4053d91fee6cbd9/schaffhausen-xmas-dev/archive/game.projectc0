@@ -44,7 +44,7 @@ trigger_overlap_capacity = 64
 
 [bootstrap]
 main_collection = /scenes/base/base.collectionc
-render = /orthographic/render/orthographic.renderc
+render = /custom.renderc
 
 [graphics]
 default_texture_min_filter = linear
