@@ -35,12 +35,12 @@ gravity_z = 0
 scale = 0.1
 allow_dynamic_transforms = 1
 debug_scale = 30
-max_collisions = 256
-max_contacts = 256
+max_collisions = 64
+max_contacts = 128
 contact_impulse_limit = 0
 ray_cast_limit_2d = 64
 ray_cast_limit_3d = 128
-trigger_overlap_capacity = 64
+trigger_overlap_capacity = 16
 
 [bootstrap]
 main_collection = /scenes/base/base.collectionc
@@ -77,7 +77,7 @@ repeat_delay = 0.5
 repeat_interval = 0.2
 gamepads = /builtins/input/default.gamepadsc
 game_binding = /input/game.input_bindingc
-use_accelerometer = 1
+use_accelerometer = 0
 
 [sprite]
 max_count = 128
@@ -99,10 +99,10 @@ max_particle_count = 1024
 
 [collection]
 max_instances = 1024
-max_input_stack_entries = 24
+max_input_stack_entries = 16
 
 [collection_proxy]
-max_count = 32
+max_count = 18
 
 [collectionfactory]
 max_count = 128
@@ -147,7 +147,7 @@ cssfile = /builtins/manifests/web/light_theme.css
 archive_location_prefix = archive
 show_fullscreen_button = 0
 show_made_with_defold = 0
-show_console_banner = 1
+show_console_banner = 0
 scale_mode = downscale_fit
 splash_image = 
 
