@@ -19,16 +19,16 @@ dynamic_orientation = 0
 display_device_info = 0
 
 [render]
-clear_color_red = 0.4
-clear_color_green = 0.4
-clear_color_blue = 0.4
+clear_color_red = 1.0
+clear_color_green = 1.0
+clear_color_blue = 1.0
 clear_color_alpha = 1.0
 
 [physics]
 type = 2D
 gravity_y = -1536.0
 debug = 0
-debug_alpha = 0.9
+debug_alpha = 0.25
 world_count = 6
 gravity_x = 0
 gravity_z = 0
@@ -141,7 +141,7 @@ localizations = en
 
 [html5]
 custom_heap_size = 0
-heap_size = 128
+heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/light_theme.css
 archive_location_prefix = archive
