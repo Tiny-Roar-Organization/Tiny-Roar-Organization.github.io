@@ -143,13 +143,13 @@ localizations = en
 custom_heap_size = 0
 heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
-cssfile = /builtins/manifests/web/light_theme.css
+cssfile = /iwc_theme.css
 archive_location_prefix = archive
 show_fullscreen_button = 0
 show_made_with_defold = 0
 show_console_banner = 0
 scale_mode = downscale_fit
-splash_image = 
+splash_image = /assets/visuals/Splash.png
 
 [particle_fx]
 max_count = 64
